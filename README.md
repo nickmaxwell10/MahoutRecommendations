@@ -16,7 +16,7 @@ cd MahoutRecommendations
 vagrant up
 ```
 If it asks for a password, it is "vagrant"
-5   Wait a while ~5-10min
+5.   Wait a while ~5-10min
 6.  SSH into the VM
 ```
 vagrant ssh
