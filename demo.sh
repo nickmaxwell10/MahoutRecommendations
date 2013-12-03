@@ -2,9 +2,11 @@
 
 # Start Hadoop Name Node, Job Tracker, etc.
 /usr/local/hadoop/bin/start-all.sh
+# Say "yes" if this asks if you want to continue
 
 mysql -uroot -ppassword mahout
-SELECT * FROM activity_trail;
+	SELECT * FROM activity_trail;
+	exit
 
 
 # Sqoop MySQL Activity Trail data to HDFS
@@ -53,7 +55,8 @@ hadoop fs -cat /home/vagrant/mahout-preference-cleaned-sql-export/part-00000
 
 # View Output
 mysql -uroot -ppassword mahout
-SELECT * FROM mahout_preference;
+	SELECT * FROM mahout_preference;
+	exit
 
 
 
@@ -66,5 +69,6 @@ hadoop fs -rmr /home/vagrant/mahout-preference-cleaned-sql-export
 hadoop fs -rmr /user/vagrant/temp
 
 mysql -uroot -ppassword mahout
-DELETE FROM mahout_preference;
+	DELETE FROM mahout_preference;
+	exit
 
