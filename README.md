@@ -1,4 +1,5 @@
-
+Mahout Recommendation Demo
+==============
   
 1.  You will need to download Vagrant - http://www.vagrantup.com and have access to the vagrant command on the command line. 
 	This demo uses VirtualBox for Vagrant - https://www.virtualbox.org/ 
