@@ -4,23 +4,23 @@ Mahout Recommendation Demo
 1.  You will need to download Vagrant - http://www.vagrantup.com and have access to the vagrant command on the command line. 
 	This demo uses VirtualBox for Vagrant - https://www.virtualbox.org/ 
 2.  Clone this directory 
-'''bash
+```bash
 git clone git@github.com:nickmaxwell10/MahoutRecommendations.git
-'''
+```
 3.  Go into the directory
-'''bash
+```bash
 cd MahoutRecommendations
-'''
+```
 4.  Fire up the VM
-'''bash
+```bash
 vagrant up
-'''
+```
 If it asks for a password, it is "vagrant"
 5   Wait a while ~5-10min
 6.  SSH into the VM
-'''bash
+```bash
 vagrant ssh
-'''
+```
 7.  One by One, run through the commands from the demo.sh file included in the MahoutRecommendations directory.
 8.  Boom!
 
