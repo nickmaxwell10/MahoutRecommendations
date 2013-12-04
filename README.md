@@ -21,7 +21,7 @@ If it asks for a password, it is "vagrant"
 ```
 vagrant ssh
 ```
-7.  One by One, run through the commands from the demo.sh file included in the MahoutRecommendations directory.
+7.  One by One, run through the commands from the demo.sh file included in this directory.
 8.  Boom!
 
 
