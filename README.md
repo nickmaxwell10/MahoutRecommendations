@@ -16,7 +16,7 @@ cd MahoutRecommendations
 vagrant up
 ```
 If it asks for a password, it is "vagrant"
-5.   Wait a while ~5-10min
+5.   The first time you boot up you will have to wait a while (~5-10min) for the dependencies to download. If you do not destroy the vm, the dependencies should be loaded each time you reboot it. 
 6.  SSH into the VM
 ```
 vagrant ssh
