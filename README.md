@@ -29,7 +29,6 @@ vagrant ssh
 
 
 Sources:
-
 Setting up a single-node Hadoop cluster on Ubuntu
 http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-single-node-cluster/
 
